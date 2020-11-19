@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  color: black;
+  font-size: 18px;
+  color: #282828;
 }
 
 .header {
@@ -10,24 +11,24 @@ body {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #282828;
 }
 
 .footer {
-  display: flex;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 70%;
   height: 10vh;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  padding: 3.5rem;
 }
 
 .menu {
   display: flex;
-  flex-basis: 400px;
+  flex-basis: 500px;
   justify-content: space-between;
   align-items: center;
   color: black;
@@ -43,7 +44,7 @@ button {
   border-radius: 60px;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  font-weight: 800;
+
   color: #ffffff;
   background-color: #fa7269;
   cursor: pointer;
@@ -56,11 +57,18 @@ button {
 .buttons__first-paragraph {
   display: inline-block;
 }
-.mapa {
+.map {
   display: flex;
   justify-content: center;
   height: 400px;
   width: 100%;
+}
+
+.map__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
 }
 
 .michaela {
@@ -79,10 +87,12 @@ button {
   width: 400px;
 }
 
+h1,
 h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: normal;
 }
 
 .odkazy {
